@@ -1,0 +1,131 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}:focus{outline:0}body{line-height:1;color:black;background:white}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:normal}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:""""}
+
+html{
+  height: 100%;
+  overflow: hidden;
+}
+
+body{
+  background: #401148;
+  color: #fff;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 100%;
+  line-height: 20px;
+}
+
+h1{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2{
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p{
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+p img{
+  float: left;
+  margin: 0 8px 0 0;
+}
+
+
+ul.links,ul.links li{
+  margin: 0;
+  padding: 0;
+}
+
+div#container{
+  height: 100%;
+  overflow: hidden;
+}
+
+div#sidebar{
+  float: right;
+  height: 100%;
+  padding: 100px 0;
+  width: 300px;
+}
+
+body.front div#sidebar{
+  float: none;
+  margin: 200px auto;
+}
+
+div#sidebar a{
+  color: #fff;
+  text-decoration: none;
+}
+
+div#sidebar a:hover{
+  text-decoration: underline;
+}
+
+div#primary{
+  margin: 10px 0;
+}
+
+div#primary ul.links li{
+  margin-left: 10px;
+  display: inline;
+  list-style-type: none;
+}
+
+div#content{
+  background: #5E3664;
+  float: right;
+  height: 100%;
+  overflow: auto;
+  width: 400px;
+}
+
+div#content div.wrapper{
+  padding: 100px 20px;
+}
+
+div#content a{
+  color: #999;
+  text-decoration: none;
+}
+
+div#content a:hover{
+  text-decoration: underline;
+}
+
+
+div#content div.view-id-portfolio ul, div.view-id-portfolio ul li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+div#content div.view-id-portfolio ul{
+  margin-left: 10px;
+  margin-right: -20px;
+  overflow: hidden;
+}
+
+div#content div.view-id-portfolio ul li{
+  float: left;
+  margin: 0 20px 20px 0;
+  width: 100px;
+}
+
+body.page-resume div#content ul{
+  margin-bottom: 10px;
+}
+
+body.page-resume div#content ul li{
+  list-style-type:circle;
+  margin-left: 20px;
+}
+
+#imageData #imageDetails{
+  padding: 20px 0;
+}
